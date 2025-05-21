@@ -1,4 +1,5 @@
-SHED = testtoolshed
+TEST_SHED = testtoolshed
+MAIN_SHED = toolshed
 GALAXY_ROOT = $(shell pwd)/scripts/
 VERSION = 0.0.1
 
@@ -7,14 +8,14 @@ test-tools:
 
 # to test-shed
 upload-test:
-	-@bash $(GALAXY_ROOT)/update_shed.sh $(GALAXY_ROOT) $(SHED)
+	-@bash $(GALAXY_ROOT)/update_shed.sh $(GALAXY_ROOT) $(TEST_SHED)
 
 update-test:
-	-@bash $(GALAXY_ROOT)/update_shed.sh $(GALAXY_ROOT) $(SHED)
+	-@bash $(GALAXY_ROOT)/update_shed.sh $(GALAXY_ROOT) $(TEST_SHED)
 
 # to upload-shed 
 upload-shed:
-	-@bash $(GALAXY_ROOT)/upload_shed.sh $(GALAXY_ROOT) $(SHED)
+	-@bash $(GALAXY_ROOT)/upload_shed.sh $(GALAXY_ROOT) $(MAIN_SHED)
 
 update-shed:
-	-@bash $(GALAXY_ROOT)/upload_shed.sh $(GALAXY_ROOT) $(SHED)
+	-@bash $(GALAXY_ROOT)/upload_shed.sh $(GALAXY_ROOT) $(MAIN_SHED)
