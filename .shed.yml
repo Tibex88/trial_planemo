@@ -4,3 +4,5 @@ name: planemo
 owner: Tibex88
 homepage_url: https://github.com/Tibex88/trial_planemo
 remote_repository_url: https://github.com/Tibex88/trial_planemo
+long_description: >
+  Galaxy wrappers for Rejuve's Visual query builder for Humnan BioAtomspace
