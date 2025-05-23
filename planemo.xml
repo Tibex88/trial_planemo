@@ -1,4 +1,4 @@
-<tool id="TESTING" name="TESTING" version="0.1.1+galaxy0" python_template_version="3.5" profile="21.05">
+<tool id="planemo" name="TESTING" version="0.1.1+galaxy0" python_template_version="3.5" profile="21.05">
     <requirements>
     </requirements>
     <command detect_errors="exit_code"><![CDATA[
