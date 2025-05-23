@@ -1,4 +1,3 @@
-````markdown
 # Planemo Galaxy Tool: Visual Query Builder Wrapper
 
 This repository contains a Galaxy wrapper for Rejuve's Visual Query Builder for Human BioAtomspace, designed to be tested and deployed using [Planemo](https://planemo.readthedocs.io/) and the Galaxy ToolShed.
